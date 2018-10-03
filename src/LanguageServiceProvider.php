@@ -21,13 +21,9 @@ class LanguageServiceProvider extends ServiceProvider
 
        $this->publishes([
              __DIR__.'/public/build' => public_path('build'),
+             __DIR__.'/public/vendors' => public_path('vendors')
               ], 'public');
-        $this->publishes([
-            __DIR__.'/public/vendors' => public_path('vendors'),
-            ], 'public');
-        
     }
-
     /**
      * Register services.
      *
@@ -36,6 +32,6 @@ class LanguageServiceProvider extends ServiceProvider
     public function register()
     {
         $this->loadViewsFrom(__DIR__.'/view', 'language');
-       
+
     }
 }
