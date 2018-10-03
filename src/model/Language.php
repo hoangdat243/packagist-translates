@@ -1,6 +1,6 @@
 <?php
 
-namespace Vinsofts\Language;
+namespace Datht\Language;
 
 use Illuminate\Database\Eloquent\Model;
 

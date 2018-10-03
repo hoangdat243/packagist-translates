@@ -1,13 +1,13 @@
 <?php
 
-namespace Vinsofts\Language;
+namespace Datht\Language;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use DB;
 use App;
 use Storage;
-use Vinsofts\Language\Language;
+//use Datht\Language\Language;
 
 
 class LanguageController extends Controller
